@@ -1,0 +1,94 @@
+# depslib dependency file v1.0
+1459714337 source:c:\users\maaslak\desktop\niskopoziomowe\niskopoziomowe proj 3\main.cpp
+	"Allegro.h"
+	"Multiplayer.h"
+	<allegro.h>
+	<cmath>
+	<cstdlib>
+	<string>
+
+1459714562 c:\users\maaslak\desktop\niskopoziomowe\niskopoziomowe proj 3\multiplayer.h
+	"Allegro.h"
+	"Pomocniczy.h"
+	"ZapisOdczyt.h"
+	<allegro.h>
+	<semaphore.h>
+	<cmath>
+	<time.h>
+	<cstdlib>
+	<string>
+
+1459704892 c:\users\maaslak\desktop\niskopoziomowe\niskopoziomowe proj 3\pomocniczy.h
+
+1459702130 source:c:\users\maaslak\desktop\niskopoziomowe\niskopoziomowe proj 3\pomocniczy.cpp
+	"Pomocniczy.h"
+	<cstdio>
+	<allegro.h>
+	<cmath>
+
+1459714569 source:c:\users\maaslak\desktop\niskopoziomowe\niskopoziomowe proj 3\multiplayer.cpp
+	"Multiplayer.h"
+
+1459714659 source:c:\users\maaslak\desktop\niskopoziomowe\niskopoziomowe proj 3\zapisodczyt.cpp
+	"ZapisOdczyt.h"
+
+1459714381 c:\users\maaslak\desktop\niskopoziomowe\niskopoziomowe proj 3\zapisodczyt.h
+	<fstream>
+	<iostream>
+	<allegro.h>
+	"Multiplayer.h"
+
+1461606335 source:c:\users\maaslak\desktop\studia\niskopoziomowe\niskopoziomowe proj 3\main.cpp
+	"Allegro.h"
+	"Multiplayer.h"
+	<allegro.h>
+	<cmath>
+	<cstdlib>
+	<string>
+	<iostream>
+
+1461596219 c:\users\maaslak\desktop\studia\niskopoziomowe\niskopoziomowe proj 3\multiplayer.h
+	"Pomocniczy.h"
+	"ZapisOdczyt.h"
+	"JedenGracz.h"
+	<allegro.h>
+	<semaphore.h>
+	<cmath>
+	<time.h>
+	<cstdlib>
+	<string>
+
+1460119027 c:\users\maaslak\desktop\studia\niskopoziomowe\niskopoziomowe proj 3\pomocniczy.h
+
+1461601704 c:\users\maaslak\desktop\studia\niskopoziomowe\niskopoziomowe proj 3\zapisodczyt.h
+	<fstream>
+	<iostream>
+	<allegro.h>
+	<string>
+	"Multiplayer.h"
+
+1461609694 source:c:\users\maaslak\desktop\studia\niskopoziomowe\niskopoziomowe proj 3\multiplayer.cpp
+	"Multiplayer.h"
+	<time.h>
+	<cstdlib>
+
+1461501692 source:c:\users\maaslak\desktop\studia\niskopoziomowe\niskopoziomowe proj 3\pomocniczy.cpp
+	"Pomocniczy.h"
+	<cstdio>
+	<allegro.h>
+	<cmath>
+
+1461789632 source:c:\users\maaslak\desktop\studia\niskopoziomowe\niskopoziomowe proj 3\zapisodczyt.cpp
+	"ZapisOdczyt.h"
+
+1461790917 source:c:\users\maaslak\desktop\studia\niskopoziomowe\niskopoziomowe proj 3\jedengracz.cpp
+	<cstddef>
+	<stdlib.h>
+	<iostream>
+	<algorithm>
+	"JedenGracz.h"
+
+1461496915 c:\users\maaslak\desktop\studia\niskopoziomowe\niskopoziomowe proj 3\jedengracz.h
+	"Pomocniczy.h"
+	<vector>
+
