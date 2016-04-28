@@ -1,0 +1,6 @@
+#ifndef OBSPLIK_H_INCLUDED
+#define OBSPLIK_H_INCLUDED
+
+
+
+#endif // OBSPLIK_H_INCLUDED
