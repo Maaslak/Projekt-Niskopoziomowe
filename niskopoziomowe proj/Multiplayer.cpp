@@ -7,7 +7,7 @@ int frame = -1000, tabZapis[33];;
 const int epsilon=18;
 int xtab[33], ytab[33], bialeZbite=0, czarneZbite=0;
 sem_t sem_rest;
-BITMAP * plansza = NULL,*planszamini=NULL, * bufor = NULL,* ZaNie=NULL,* Gracz=NULL, * White=NULL, * Black=NULL;
+BITMAP * plansza = NULL,*planszamini=NULL, * bufor = NULL,* Gracz=NULL, * White=NULL, * Black=NULL;
 
 volatile int ticks = 0;
 const int updates_per_second = 60;
@@ -222,11 +222,13 @@ delete(tablica);
 
 inline void deinitM()
 {
+
     DelPom();
 	show_mouse(screen);
     destroy_bitmap( bufor );
     destroy_bitmap( plansza );
-    destroy_bitmap( ZaNie );
+    destroy_bitmap(planszamini);
+    destroy_bitmap(Gracz);
 }
 
 int CreateBit(){
@@ -247,14 +249,7 @@ if( !bufor )
     allegro_exit();
     return 0;
 }
-ZaNie = load_bmp ("bitmapy/ZaNieBicie.bmp", default_palette);
-if( !ZaNie )
-{
-    set_gfx_mode( GFX_TEXT, 0, 0, 0, 0 );
-    allegro_message( "nie mogê za³adowaæ obrazka ZaNie!" );
-    allegro_exit();
-    return 0;
-}
+
 planszamini=load_bmp ("bitmapy/boardmini.bmp", default_palette);
 if( !planszamini )
 {

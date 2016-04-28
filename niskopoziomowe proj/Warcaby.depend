@@ -92,3 +92,57 @@
 	"Pomocniczy.h"
 	<vector>
 
+1461790917 source:c:\users\maaslak\desktop\studia\niskopoziomowe\niskopoziomowe proj\jedengracz.cpp
+	<cstddef>
+	<stdlib.h>
+	<iostream>
+	<algorithm>
+	"JedenGracz.h"
+
+1461496915 c:\users\maaslak\desktop\studia\niskopoziomowe\niskopoziomowe proj\jedengracz.h
+	"Pomocniczy.h"
+	<vector>
+
+1460119027 c:\users\maaslak\desktop\studia\niskopoziomowe\niskopoziomowe proj\pomocniczy.h
+
+1461870413 source:c:\users\maaslak\desktop\studia\niskopoziomowe\niskopoziomowe proj\main.cpp
+	"Allegro.h"
+	"Multiplayer.h"
+	<allegro.h>
+	<cmath>
+	<cstdlib>
+	<string>
+	<iostream>
+
+1461596219 c:\users\maaslak\desktop\studia\niskopoziomowe\niskopoziomowe proj\multiplayer.h
+	"Pomocniczy.h"
+	"ZapisOdczyt.h"
+	"JedenGracz.h"
+	<allegro.h>
+	<semaphore.h>
+	<cmath>
+	<time.h>
+	<cstdlib>
+	<string>
+
+1461601704 c:\users\maaslak\desktop\studia\niskopoziomowe\niskopoziomowe proj\zapisodczyt.h
+	<fstream>
+	<iostream>
+	<allegro.h>
+	<string>
+	"Multiplayer.h"
+
+1461870474 source:c:\users\maaslak\desktop\studia\niskopoziomowe\niskopoziomowe proj\multiplayer.cpp
+	"Multiplayer.h"
+	<time.h>
+	<cstdlib>
+
+1461501692 source:c:\users\maaslak\desktop\studia\niskopoziomowe\niskopoziomowe proj\pomocniczy.cpp
+	"Pomocniczy.h"
+	<cstdio>
+	<allegro.h>
+	<cmath>
+
+1461789632 source:c:\users\maaslak\desktop\studia\niskopoziomowe\niskopoziomowe proj\zapisodczyt.cpp
+	"ZapisOdczyt.h"
+

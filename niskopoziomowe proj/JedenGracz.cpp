@@ -127,9 +127,6 @@ int MinMax(wezel* wez){
  if(CzyTerminalny(wez->tab)==1 || !CzyGlebokoscOk(wez))
     return wez->WartHeur=Ewaluacja(wez);
  GenPotomkow(wez, 0);
- //if(wez->potomkowie.size()==0){
-   // if(wez->Max==true) return wez->WartHeur=minusinfinity;
-   // else return wez->WartHeur=infinity;}
  for(unsigned int i=0; i<wez->potomkowie.size(); i++){
      if(wez->Max==true){
      wez->WartHeur=max(wez->WartHeur, MinMax(wez->potomkowie[i]));if(wez==korzen)cout<<wez->WartHeur<<' ';}

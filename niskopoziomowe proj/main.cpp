@@ -111,6 +111,12 @@ show_mouse(screen);
 
 inline void deinit()
 {
+    destroy_bitmap(Tytan);
+    destroy_bitmap(SP);
+    destroy_bitmap(MP);
+    destroy_bitmap(LSP);
+    destroy_bitmap(LMP);
+    destroy_bitmap(Ex);
 	clear_keybuf();
 	allegro_exit();
 }
