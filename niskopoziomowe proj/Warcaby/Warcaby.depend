@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1457685778 source:c:\users\maaslak\desktop\niskopoziomowe proj\warcaby\main.cpp
+	<allegro.h>
+	"AllegroObs.h"
+
+1457802016 c:\users\maaslak\desktop\niskopoziomowe proj\warcaby\rozgrywka.h
+	"AllegroObs.h"
+
+1457803688 c:\users\maaslak\desktop\niskopoziomowe proj\warcaby\allegroobs.h
+	<allegro.h>
+	<cmath>
+	<time.h>
+	<semaphore.h>
+	<vector>
+
+1457805597 source:c:\users\maaslak\desktop\niskopoziomowe proj\warcaby\allegroobs.cpp
+	"AllegroObs.h"
+	"Rozgrywka.h"
+
+1457805793 source:c:\users\maaslak\desktop\niskopoziomowe proj\warcaby\rozgrywka.cpp
+	"Rozgrywka.h"
+
+1457785608 source:c:\users\b³a¿ej\desktop\niskopoziomowe proj\warcaby\allegroobs.cpp
+	"AllegroObs.h"
+	"Rozgrywka.h"
+
+1457785544 c:\users\b³a¿ej\desktop\niskopoziomowe proj\warcaby\allegroobs.h
+	<allegro.h>
+	<cmath>
+	<time.h>
+	<semaphore.h>
+
+1457686004 c:\users\b³a¿ej\desktop\niskopoziomowe proj\warcaby\rozgrywka.h
+	"AllegroObs.h"
+
+1457685778 source:c:\users\b³a¿ej\desktop\niskopoziomowe proj\warcaby\main.cpp
+	<allegro.h>
+	"AllegroObs.h"
+
+1457785257 source:c:\users\b³a¿ej\desktop\niskopoziomowe proj\warcaby\rozgrywka.cpp
+	"Rozgrywka.h"
+
+1457805597 source:c:\users\witek\desktop\niskopoziomowe proj\warcaby\allegroobs.cpp
+	"AllegroObs.h"
+	"Rozgrywka.h"
+
+1457803688 c:\users\witek\desktop\niskopoziomowe proj\warcaby\allegroobs.h
+	<allegro.h>
+	<cmath>
+	<time.h>
+	<semaphore.h>
+	<vector>
+
+1457802016 c:\users\witek\desktop\niskopoziomowe proj\warcaby\rozgrywka.h
+	"AllegroObs.h"
+
+1457685778 source:c:\users\witek\desktop\niskopoziomowe proj\warcaby\main.cpp
+	<allegro.h>
+	"AllegroObs.h"
+
+1457805793 source:c:\users\witek\desktop\niskopoziomowe proj\warcaby\rozgrywka.cpp
+	"Rozgrywka.h"
+
